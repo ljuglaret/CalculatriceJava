@@ -55,7 +55,7 @@ tasks.named('jar') {
     manifest {
         attributes('Implementation-Title': 'Calculatrice',
                    'Implementation-Version':' 0.1.0',
-                   'Main-class' : 'Vue.LauncherMVC',
+                   'Main-class' : 'avecMVC.Vue.LauncherMVC',
                    'Multi-Release': 'true'
                    )
     }
