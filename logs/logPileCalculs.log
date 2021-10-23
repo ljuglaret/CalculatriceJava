@@ -1,0 +1,1996 @@
+- Chaîne à evaluer : 2 + 3 * 4                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 3.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression  [2.0, 3.0, 4.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression   [2.0, 3.0, 4.0]
+- Pile Opérateurs   [+, *]
+
+- Calcul effectué : 3.0*4.0 = 12.0
+- Pile Expression   [2.0, 12.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [2.0, 12.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 2.0+12.0 = 14.0
+- Pile Expression   [14.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 14.0
+
+
+- Chaîne à evaluer : 2 * 3 + 4                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [2.0, 3.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [2.0, 3.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 2.0*3.0 = 6.0
+- Pile Expression   [6.0]
+- Pile Opérateurs   []
+
+- Pile Expression  [6.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [6.0, 4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [6.0, 4.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 6.0+4.0 = 10.0
+- Pile Expression   [10.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 10.0
+
+
+- Chaîne à evaluer : 2 + 5 * 9                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 5.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression  [2.0, 5.0, 9.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression   [2.0, 5.0, 9.0]
+- Pile Opérateurs   [+, *]
+
+- Calcul effectué : 5.0*9.0 = 45.0
+- Pile Expression   [2.0, 45.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [2.0, 45.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 2.0+45.0 = 47.0
+- Pile Expression   [47.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 47.0
+
+
+- Chaîne à evaluer : 4 + -5              
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [4.0, -5.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+-5.0 = -1.0
+- Pile Expression   [-1.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -1.0
+
+
+- Chaîne à evaluer : 79 * 9                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [79.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [79.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [79.0, 9.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [79.0, 9.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 79.0*9.0 = 711.0
+- Pile Expression   [711.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 711.0
+
+
+- Chaîne à evaluer : 52  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [52.0]
+- Pile des opérateurs[]
+
+- Résultat de l'évaluation : 52.0
+
+
+- Chaîne à evaluer : 453       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [453.0]
+- Pile des opérateurs[]
+
+- Résultat de l'évaluation : 453.0
+
+
+- Chaîne à evaluer : 4 + -8 + -2                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -8.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -8.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression  [4.0, -8.0, -2.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression   [4.0, -8.0, -2.0]
+- Pile Opérateurs   [+, +]
+
+- Calcul effectué : -8.0+-2.0 = -10.0
+- Pile Expression   [4.0, -10.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [4.0, -10.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+-10.0 = -6.0
+- Pile Expression   [-6.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -6.0
+
+
+- Chaîne à evaluer : -6.0 * 2                                                              
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [-6.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [-6.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [-6.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [-6.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : -6.0*2.0 = -12.0
+- Pile Expression   [-12.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -12.0
+
+
+- Chaîne à evaluer : 1 + 2                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [1.0, 2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+2.0 = 3.0
+- Pile Expression   [3.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 3.0
+
+
+- Chaîne à evaluer : 45 + 35                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [45.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [45.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [45.0, 35.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [45.0, 35.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 45.0+35.0 = 80.0
+- Pile Expression   [80.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 80.0
+
+
+- Chaîne à evaluer :  5 + 3                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [5.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [5.0, 3.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 5.0+3.0 = 8.0
+- Pile Expression   [8.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 8.0
+
+
+- Chaîne à evaluer :  5 + 3                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [5.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [5.0, 3.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 5.0+3.0 = 8.0
+- Pile Expression   [8.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 8.0
+
+
+- Chaîne à evaluer : 8.0 * 2                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [8.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [8.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [8.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [8.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 8.0*2.0 = 16.0
+- Pile Expression   [16.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 16.0
+
+
+- Chaîne à evaluer : 8.0 * 2                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [8.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [8.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [8.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [8.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 8.0*2.0 = 16.0
+- Pile Expression   [16.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 16.0
+
+
+- Chaîne à evaluer : 16.0 + -3                                                                                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [16.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [16.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [16.0, -3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [16.0, -3.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 16.0+-3.0 = 13.0
+- Pile Expression   [13.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 13.0
+
+
+- Chaîne à evaluer : 16.0 + -3                                                                                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [16.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [16.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [16.0, -3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [16.0, -3.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 16.0+-3.0 = 13.0
+- Pile Expression   [13.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 13.0
+
+
+- Chaîne à evaluer : 13.0 * 2 + ( 4 + 3 * 5 )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [13.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [13.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [13.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [13.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 13.0*2.0 = 26.0
+- Pile Expression   [26.0]
+- Pile Opérateurs   []
+
+- Pile Expression  [26.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [26.0]
+- Pile des opérateurs[+, (]
+
+- Pile Expression  [26.0, 4.0]
+- Pile des opérateurs[+, (]
+
+- Pile Expression  [26.0, 4.0]
+- Pile des opérateurs[+, (, +]
+
+- Pile Expression  [26.0, 4.0, 3.0]
+- Pile des opérateurs[+, (, +]
+
+- Pile Expression  [26.0, 4.0, 3.0]
+- Pile des opérateurs[+, (, +, *]
+
+- Pile Expression  [26.0, 4.0, 3.0, 5.0]
+- Pile des opérateurs[+, (, +, *]
+
+- Pile Expression   [26.0, 4.0, 3.0, 5.0]
+- Pile Opérateurs   [+, (, +, *]
+
+- Calcul effectué : 3.0*5.0 = 15.0
+- Pile Expression   [26.0, 4.0, 15.0]
+- Pile Opérateurs   [+, (, +]
+
+- Pile Expression   [26.0, 4.0, 15.0]
+- Pile Opérateurs   [+, (, +]
+
+- Calcul effectué : 4.0+15.0 = 19.0
+- Pile Expression   [26.0, 19.0]
+- Pile Opérateurs   [+, (]
+
+- Pile Expression  [26.0, 19.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [26.0, 19.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 26.0+19.0 = 45.0
+- Pile Expression   [45.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 45.0
+
+
+- Chaîne à evaluer : 13.0 * 2 + ( 4 + 3 * 5 )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [13.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [13.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [13.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [13.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 13.0*2.0 = 26.0
+- Pile Expression   [26.0]
+- Pile Opérateurs   []
+
+- Pile Expression  [26.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [26.0]
+- Pile des opérateurs[+, (]
+
+- Pile Expression  [26.0, 4.0]
+- Pile des opérateurs[+, (]
+
+- Pile Expression  [26.0, 4.0]
+- Pile des opérateurs[+, (, +]
+
+- Pile Expression  [26.0, 4.0, 3.0]
+- Pile des opérateurs[+, (, +]
+
+- Pile Expression  [26.0, 4.0, 3.0]
+- Pile des opérateurs[+, (, +, *]
+
+- Pile Expression  [26.0, 4.0, 3.0, 5.0]
+- Pile des opérateurs[+, (, +, *]
+
+- Pile Expression   [26.0, 4.0, 3.0, 5.0]
+- Pile Opérateurs   [+, (, +, *]
+
+- Calcul effectué : 3.0*5.0 = 15.0
+- Pile Expression   [26.0, 4.0, 15.0]
+- Pile Opérateurs   [+, (, +]
+
+- Pile Expression   [26.0, 4.0, 15.0]
+- Pile Opérateurs   [+, (, +]
+
+- Calcul effectué : 4.0+15.0 = 19.0
+- Pile Expression   [26.0, 19.0]
+- Pile Opérateurs   [+, (]
+
+- Pile Expression  [26.0, 19.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [26.0, 19.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 26.0+19.0 = 45.0
+- Pile Expression   [45.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 45.0
+
+
+- Chaîne à evaluer : 1 + 3 + 2                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 3.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression  [1.0, 3.0, 2.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression   [1.0, 3.0, 2.0]
+- Pile Opérateurs   [+, +]
+
+- Calcul effectué : 3.0+2.0 = 5.0
+- Pile Expression   [1.0, 5.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [1.0, 5.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+5.0 = 6.0
+- Pile Expression   [6.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 6.0
+
+
+- Chaîne à evaluer : 1 + 3 + 2                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 3.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression  [1.0, 3.0, 2.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression   [1.0, 3.0, 2.0]
+- Pile Opérateurs   [+, +]
+
+- Calcul effectué : 3.0+2.0 = 5.0
+- Pile Expression   [1.0, 5.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [1.0, 5.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+5.0 = 6.0
+- Pile Expression   [6.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 6.0
+
+
+- Chaîne à evaluer :  4 + 5                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, 5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [4.0, 5.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+5.0 = 9.0
+- Pile Expression   [9.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 9.0
+
+
+- Chaîne à evaluer : 9.0 * 2                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [9.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [9.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [9.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [9.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 9.0*2.0 = 18.0
+- Pile Expression   [18.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 18.0
+
+
+- Chaîne à evaluer :  1 + 2                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [1.0, 2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+2.0 = 3.0
+- Pile Expression   [3.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 3.0
+
+
+- Chaîne à evaluer :  1 + 2 * 2                                                                                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 2.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression  [1.0, 2.0, 2.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression   [1.0, 2.0, 2.0]
+- Pile Opérateurs   [+, *]
+
+- Calcul effectué : 2.0*2.0 = 4.0
+- Pile Expression   [1.0, 4.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [1.0, 4.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+4.0 = 5.0
+- Pile Expression   [5.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 5.0
+
+
+- Chaîne à evaluer :  4 + 5                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, 5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [4.0, 5.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+5.0 = 9.0
+- Pile Expression   [9.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 9.0
+
+
+- Chaîne à evaluer :  4 + 5                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, 5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [4.0, 5.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+5.0 = 9.0
+- Pile Expression   [9.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 9.0
+
+
+- Chaîne à evaluer : 9.0 * 2                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [9.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [9.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [9.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [9.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 9.0*2.0 = 18.0
+- Pile Expression   [18.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 18.0
+
+
+- Chaîne à evaluer : 9.0 * 2                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [9.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [9.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [9.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [9.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 9.0*2.0 = 18.0
+- Pile Expression   [18.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 18.0
+
+
+- Chaîne à evaluer : 18.0 + 3.5                                                                                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [18.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [18.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [18.0, 3.5]
+- Pile des opérateurs[+]
+
+- Pile Expression   [18.0, 3.5]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 18.0+3.5 = 21.5
+- Pile Expression   [21.5]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 21.5
+
+
+- Chaîne à evaluer : 18.0 + 3.5                                                                                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [18.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [18.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [18.0, 3.5]
+- Pile des opérateurs[+]
+
+- Pile Expression   [18.0, 3.5]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 18.0+3.5 = 21.5
+- Pile Expression   [21.5]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 21.5
+
+
+- Chaîne à evaluer : 21.5 * 2                                                              
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [21.5]
+- Pile des opérateurs[]
+
+- Pile Expression  [21.5]
+- Pile des opérateurs[*]
+
+- Pile Expression  [21.5, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [21.5, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 21.5*2.0 = 43.0
+- Pile Expression   [43.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 43.0
+
+
+- Chaîne à evaluer : 21.5 * 2                                                              
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [21.5]
+- Pile des opérateurs[]
+
+- Pile Expression  [21.5]
+- Pile des opérateurs[*]
+
+- Pile Expression  [21.5, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [21.5, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 21.5*2.0 = 43.0
+- Pile Expression   [43.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 43.0
+
+
+- Chaîne à evaluer : 1 + 2                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [1.0, 2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+2.0 = 3.0
+- Pile Expression   [3.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 3.0
+
+
+- Chaîne à evaluer : 1 + 2                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [1.0, 2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+2.0 = 3.0
+- Pile Expression   [3.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 3.0
+
+
+- Chaîne à evaluer :  5 + -2                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [5.0, -2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [5.0, -2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 5.0+-2.0 = 3.0
+- Pile Expression   [3.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 3.0
+
+
+- Chaîne à evaluer :  4 + -2                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [4.0, -2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+-2.0 = 2.0
+- Pile Expression   [2.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 2.0
+
+
+- Chaîne à evaluer :  4 + -2 * 3                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -2.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression  [4.0, -2.0, 3.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression   [4.0, -2.0, 3.0]
+- Pile Opérateurs   [+, *]
+
+- Calcul effectué : -2.0*3.0 = -6.0
+- Pile Expression   [4.0, -6.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [4.0, -6.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+-6.0 = -2.0
+- Pile Expression   [-2.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -2.0
+
+
+- Chaîne à evaluer : 4 + -2              
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [4.0, -2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+-2.0 = 2.0
+- Pile Expression   [2.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 2.0
+
+
+- Chaîne à evaluer :  5 + -6                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [5.0, -6.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [5.0, -6.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 5.0+-6.0 = -1.0
+- Pile Expression   [-1.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -1.0
+
+
+- Chaîne à evaluer : -1.0 * 2                                                              
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [-1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [-1.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [-1.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [-1.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : -1.0*2.0 = -2.0
+- Pile Expression   [-2.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -2.0
+
+
+- Chaîne à evaluer : -2.0 + 3 + -4 * 5                                                                                                                                                                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [-2.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [-2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [-2.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [-2.0, 3.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression  [-2.0, 3.0, -4.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression  [-2.0, 3.0, -4.0]
+- Pile des opérateurs[+, +, *]
+
+- Pile Expression  [-2.0, 3.0, -4.0, 5.0]
+- Pile des opérateurs[+, +, *]
+
+- Pile Expression   [-2.0, 3.0, -4.0, 5.0]
+- Pile Opérateurs   [+, +, *]
+
+- Calcul effectué : -4.0*5.0 = -20.0
+- Pile Expression   [-2.0, 3.0, -20.0]
+- Pile Opérateurs   [+, +]
+
+- Pile Expression   [-2.0, 3.0, -20.0]
+- Pile Opérateurs   [+, +]
+
+- Calcul effectué : 3.0+-20.0 = -17.0
+- Pile Expression   [-2.0, -17.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [-2.0, -17.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : -2.0+-17.0 = -19.0
+- Pile Expression   [-19.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -19.0
+
+
+- Chaîne à evaluer :  4 + -5                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [4.0, -5.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+-5.0 = -1.0
+- Pile Expression   [-1.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -1.0
+
+
+- Chaîne à evaluer : 2 + 3                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [2.0, 3.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 2.0+3.0 = 5.0
+- Pile Expression   [5.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 5.0
+
+
+- Chaîne à evaluer : 5.0 * 4 + 2                                                                                                                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [5.0, 4.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [5.0, 4.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 5.0*4.0 = 20.0
+- Pile Expression   [20.0]
+- Pile Opérateurs   []
+
+- Pile Expression  [20.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [20.0, 2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [20.0, 2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 20.0+2.0 = 22.0
+- Pile Expression   [22.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 22.0
+
+
+- Chaîne à evaluer : 22.0 + 3 + -4                                                                                                                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [22.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [22.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [22.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [22.0, 3.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression  [22.0, 3.0, -4.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression   [22.0, 3.0, -4.0]
+- Pile Opérateurs   [+, +]
+
+- Calcul effectué : 3.0+-4.0 = -1.0
+- Pile Expression   [22.0, -1.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [22.0, -1.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 22.0+-1.0 = 21.0
+- Pile Expression   [21.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 21.0
+
+
+- Chaîne à evaluer : 21.0 * 2 + 3.5                                                                                                                                                                                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [21.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [21.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [21.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [21.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 21.0*2.0 = 42.0
+- Pile Expression   [42.0]
+- Pile Opérateurs   []
+
+- Pile Expression  [42.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [42.0, 3.5]
+- Pile des opérateurs[+]
+
+- Pile Expression   [42.0, 3.5]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 42.0+3.5 = 45.5
+- Pile Expression   [45.5]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 45.5
+
+
+- Chaîne à evaluer : 
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Chaîne à evaluer :  5 + -6                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [5.0, -6.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [5.0, -6.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 5.0+-6.0 = -1.0
+- Pile Expression   [-1.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -1.0
+
+
+- Chaîne à evaluer : -1.0 + 3 * 2                                                                                                                                              
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [-1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [-1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [-1.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [-1.0, 3.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression  [-1.0, 3.0, 2.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression   [-1.0, 3.0, 2.0]
+- Pile Opérateurs   [+, *]
+
+- Calcul effectué : 3.0*2.0 = 6.0
+- Pile Expression   [-1.0, 6.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [-1.0, 6.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : -1.0+6.0 = 5.0
+- Pile Expression   [5.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 5.0
+
+
+- Chaîne à evaluer : 5.0 * 2 + 4                                                                                                                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [5.0, 2.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [5.0, 2.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 5.0*2.0 = 10.0
+- Pile Expression   [10.0]
+- Pile Opérateurs   []
+
+- Pile Expression  [10.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [10.0, 4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [10.0, 4.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 10.0+4.0 = 14.0
+- Pile Expression   [14.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 14.0
+
+
+- Chaîne à evaluer :  4 + 3                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [4.0, 3.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+3.0 = 7.0
+- Pile Expression   [7.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 7.0
+
+
+- Chaîne à evaluer :  2 + 3                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [2.0, 3.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 2.0+3.0 = 5.0
+- Pile Expression   [5.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 5.0
+
+
+- Chaîne à evaluer :  2 + 3 * 2                                                                                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 3.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression  [2.0, 3.0, 2.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression   [2.0, 3.0, 2.0]
+- Pile Opérateurs   [+, *]
+
+- Calcul effectué : 3.0*2.0 = 6.0
+- Pile Expression   [2.0, 6.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [2.0, 6.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 2.0+6.0 = 8.0
+- Pile Expression   [8.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 8.0
+
+
+- Chaîne à evaluer : 2 + 6                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 6.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [2.0, 6.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 2.0+6.0 = 8.0
+- Pile Expression   [8.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 8.0
+
+
+- Chaîne à evaluer :  5 + -2                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [5.0, -2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [5.0, -2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 5.0+-2.0 = 3.0
+- Pile Expression   [3.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 3.0
+
+
+- Chaîne à evaluer :  5 + -2 * 2                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [5.0, -2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [5.0, -2.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression  [5.0, -2.0, 2.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression   [5.0, -2.0, 2.0]
+- Pile Opérateurs   [+, *]
+
+- Calcul effectué : -2.0*2.0 = -4.0
+- Pile Expression   [5.0, -4.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [5.0, -4.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 5.0+-4.0 = 1.0
+- Pile Expression   [1.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 1.0
+
+
+- Chaîne à evaluer :  10 + 10                                                              
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [10.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [10.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [10.0, 10.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [10.0, 10.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 10.0+10.0 = 20.0
+- Pile Expression   [20.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 20.0
+
+
+- Chaîne à evaluer :  1 + 1                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [1.0, 1.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+1.0 = 2.0
+- Pile Expression   [2.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 2.0
+
+
+- Chaîne à evaluer : 2.0 + 3                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [2.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [2.0, 3.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 2.0+3.0 = 5.0
+- Pile Expression   [5.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 5.0
+
+
+- Chaîne à evaluer : 5.0 + 1                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [5.0, 1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [5.0, 1.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 5.0+1.0 = 6.0
+- Pile Expression   [6.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 6.0
+
+
+- Chaîne à evaluer :  4 + -5 * 3                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [4.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -5.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [4.0, -5.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression  [4.0, -5.0, 3.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression   [4.0, -5.0, 3.0]
+- Pile Opérateurs   [+, *]
+
+- Calcul effectué : -5.0*3.0 = -15.0
+- Pile Expression   [4.0, -15.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [4.0, -15.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 4.0+-15.0 = -11.0
+- Pile Expression   [-11.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -11.0
+
+
+- Chaîne à evaluer : -11.0 * 2.5 + 1                                                                                                                                                                                                                               
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [-11.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [-11.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [-11.0, 2.5]
+- Pile des opérateurs[*]
+
+- Pile Expression   [-11.0, 2.5]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : -11.0*2.5 = -27.5
+- Pile Expression   [-27.5]
+- Pile Opérateurs   []
+
+- Pile Expression  [-27.5]
+- Pile des opérateurs[+]
+
+- Pile Expression  [-27.5, 1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [-27.5, 1.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : -27.5+1.0 = -26.5
+- Pile Expression   [-26.5]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -26.5
+
+
+- Chaîne à evaluer : -26.5 + 2 * 3                                                                                                                                                                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [-26.5]
+- Pile des opérateurs[]
+
+- Pile Expression  [-26.5]
+- Pile des opérateurs[+]
+
+- Pile Expression  [-26.5, 2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [-26.5, 2.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression  [-26.5, 2.0, 3.0]
+- Pile des opérateurs[+, *]
+
+- Pile Expression   [-26.5, 2.0, 3.0]
+- Pile Opérateurs   [+, *]
+
+- Calcul effectué : 2.0*3.0 = 6.0
+- Pile Expression   [-26.5, 6.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [-26.5, 6.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : -26.5+6.0 = -20.5
+- Pile Expression   [-20.5]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : -20.5
+
+
+- Chaîne à evaluer : 1 + 2                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [1.0, 2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+2.0 = 3.0
+- Pile Expression   [3.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 3.0
+
+
+- Chaîne à evaluer : 1 + 2                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [1.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [1.0, 2.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [1.0, 2.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 1.0+2.0 = 3.0
+- Pile Expression   [3.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 3.0
+
+
+- Chaîne à evaluer :  8 * 8                                  
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [8.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [8.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [8.0, 8.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [8.0, 8.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 8.0*8.0 = 64.0
+- Pile Expression   [64.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 64.0
+
+
+- Chaîne à evaluer : 64.0 + 3                                                              
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [64.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [64.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [64.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression   [64.0, 3.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 64.0+3.0 = 67.0
+- Pile Expression   [67.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 67.0
+
+
+- Chaîne à evaluer : 8 * 8                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [8.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [8.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [8.0, 8.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [8.0, 8.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 8.0*8.0 = 64.0
+- Pile Expression   [64.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 64.0
+
+
+- Chaîne à evaluer : 64.0 + 3 + -2                                                                                                                       
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [64.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [64.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [64.0, 3.0]
+- Pile des opérateurs[+]
+
+- Pile Expression  [64.0, 3.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression  [64.0, 3.0, -2.0]
+- Pile des opérateurs[+, +]
+
+- Pile Expression   [64.0, 3.0, -2.0]
+- Pile Opérateurs   [+, +]
+
+- Calcul effectué : 3.0+-2.0 = 1.0
+- Pile Expression   [64.0, 1.0]
+- Pile Opérateurs   [+]
+
+- Pile Expression   [64.0, 1.0]
+- Pile Opérateurs   [+]
+
+- Calcul effectué : 64.0+1.0 = 65.0
+- Pile Expression   [65.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 65.0
+
+
+- Chaîne à evaluer : 65.0 * ( 1 + 2 * 3 + -4 )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+- Pile Expression  []
+- Pile des opérateurs[]
+
+- Pile Expression  [65.0]
+- Pile des opérateurs[]
+
+- Pile Expression  [65.0]
+- Pile des opérateurs[*]
+
+- Pile Expression  [65.0]
+- Pile des opérateurs[*, (]
+
+- Pile Expression  [65.0, 1.0]
+- Pile des opérateurs[*, (]
+
+- Pile Expression  [65.0, 1.0]
+- Pile des opérateurs[*, (, +]
+
+- Pile Expression  [65.0, 1.0, 2.0]
+- Pile des opérateurs[*, (, +]
+
+- Pile Expression  [65.0, 1.0, 2.0]
+- Pile des opérateurs[*, (, +, *]
+
+- Pile Expression  [65.0, 1.0, 2.0, 3.0]
+- Pile des opérateurs[*, (, +, *]
+
+- Pile Expression   [65.0, 1.0, 2.0, 3.0]
+- Pile Opérateurs   [*, (, +, *]
+
+- Calcul effectué : 2.0*3.0 = 6.0
+- Pile Expression   [65.0, 1.0, 6.0]
+- Pile Opérateurs   [*, (, +]
+
+- Pile Expression  [65.0, 1.0, 6.0]
+- Pile des opérateurs[*, (, +, +]
+
+- Pile Expression  [65.0, 1.0, 6.0, -4.0]
+- Pile des opérateurs[*, (, +, +]
+
+- Pile Expression   [65.0, 1.0, 6.0, -4.0]
+- Pile Opérateurs   [*, (, +, +]
+
+- Calcul effectué : 6.0+-4.0 = 2.0
+- Pile Expression   [65.0, 1.0, 2.0]
+- Pile Opérateurs   [*, (, +]
+
+- Pile Expression   [65.0, 1.0, 2.0]
+- Pile Opérateurs   [*, (, +]
+
+- Calcul effectué : 1.0+2.0 = 3.0
+- Pile Expression   [65.0, 3.0]
+- Pile Opérateurs   [*, (]
+
+- Pile Expression  [65.0, 3.0]
+- Pile des opérateurs[*]
+
+- Pile Expression   [65.0, 3.0]
+- Pile Opérateurs   [*]
+
+- Calcul effectué : 65.0*3.0 = 195.0
+- Pile Expression   [195.0]
+- Pile Opérateurs   []
+
+- Résultat de l'évaluation : 195.0
+
+
