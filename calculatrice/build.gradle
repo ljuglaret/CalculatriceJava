@@ -9,18 +9,19 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
+    id 'java'
     id 'org.openjfx.javafxplugin' version '0.0.9'
 }
 version = '0.1.0'
-
-
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
 }
 javafx {
     version = "12"
-    modules = [ 'javafx.controls' ]
+    modules = [ 'javafx.controls'  ]
 }
 
 dependencies {
@@ -55,7 +56,7 @@ tasks.named('jar') {
     manifest {
         attributes('Implementation-Title': 'Calculatrice',
                    'Implementation-Version':' 0.1.0',
-                   'Main-class' : 'avecMVC.Vue.LauncherMVC',
+                   'Main-class' : 'com.ljuglaret.avecMVC.Vue.LauncherMVC',
                    'Multi-Release': 'true'
                    )
     }

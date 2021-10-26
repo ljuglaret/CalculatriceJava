@@ -5,7 +5,7 @@ package Calculatrice;
 
 import org.junit.jupiter.api.Test;
 
-import sansMVC.Modele.Calculer;
+import com.ljuglaret.sansMVC.Modele.Calculer;
 
 import static org.junit.jupiter.api.Assertions.*;
 
