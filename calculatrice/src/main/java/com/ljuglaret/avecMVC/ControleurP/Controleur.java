@@ -158,7 +158,8 @@ public class Controleur  {
             String chaineEvaluee = String.valueOf(calcul.evaluer().get());
             vue.getResult().setText(chaineEvaluee);
             vue.getSaisieEnCours().setText(modele.getExpression().get());
-            modele.setExpression(chaineEvaluee);
+            modele = new ModeleMvc(chaineEvaluee);
+           // modele.setExpression(chaineEvaluee);
             event.consume();
         });
 

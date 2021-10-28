@@ -27,7 +27,7 @@ public class VueMvc {
 
     VBox root = new VBox();
     Label result = new Label("");
-    TextField saisieEnCours = new TextField("");
+    TextField saisieEnCours = new TextField(" ");
     Button button0 = new Button("0");
     Button button1 = new Button("1");
     Button button2 = new Button("2");
