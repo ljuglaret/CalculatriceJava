@@ -8,32 +8,48 @@ import java.util.Iterator;
 import java.util.EmptyStackException;
 import java.util.List;
 
+import com.ljuglaret.avecMVC.observeObservateur.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javafx.beans.property.*;
+import com.ljuglaret.avecMVC.observeObservateur.IObservateur;
+public class ModeleMvc implements IObservable{
 
-public class ModeleMvc {
+    List<IObservateur> l ;
 
     private static Logger logger = LoggerFactory.getLogger(Evaluation.class);
 
-    private StringProperty expression;
+
+    private String expression;
 
     public ModeleMvc(String expression) {
-        this.expression = new SimpleStringProperty(expression);
+        l =  new ArrayList<>();
+        this.expression = expression;
     }
 
-    public StringProperty getExpression() {
-        return expression;
+    public   void ajoutObservateur(  IObservateur o){
+        l.add(o);
     }
 
-    public void ajoutSymbole(String chaine) {
-        this.expression.set(expression.get() + chaine);
+    public void suppressionObservateur(  IObservateur o){
+        l.remove(o);
     }
 
-    public void setExpression(String expression) {
-        this.expression.set(expression);
+  public String getValeur(){
+    return expression;
+  }
+
+  public void setValeur(String exp){
+    expression = exp;
+  }
+
+    public void notifierObservateurs( ){
+        for (IObservateur obs : l){
+            obs.actualiser(this);
+        }
     }
+
+
 
     public static String agrandit(String str) {
         String espaces = "";
@@ -92,9 +108,9 @@ public class ModeleMvc {
         return c >= '0' && c <= '9';
     }
 
-    public DoubleProperty evaluer() {
+    public double evaluer() {
 
-        String expressionCalcul = ajoutePlus(expression.get());
+        String expressionCalcul = ajoutePlus(expression);
         logger.info("Chaîne à evaluer : " + expressionCalcul);
 
         char[] tokens = expressionCalcul.toCharArray();
@@ -161,7 +177,7 @@ public class ModeleMvc {
 
         // Le parcours fini, le résultat final se trouve au sommet de P
         logger.info("Résultat de l'évaluation : " + pileExpression.peek() + "\n\n");
-        return new SimpleDoubleProperty(pileExpression.pop());
+        return pileExpression.pop();
     }
 
 }

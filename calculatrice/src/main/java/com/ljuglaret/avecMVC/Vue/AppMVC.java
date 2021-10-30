@@ -1,9 +1,9 @@
 package com.ljuglaret.avecMVC.Vue;
 
 import com.ljuglaret.avecMVC.Vue.VueMvc;
-import com.ljuglaret.avecMVC.ControleurP.Controleur;
+import com.ljuglaret.avecMVC.ControleurP.ControleurBouton;
 import com.ljuglaret.avecMVC.ControleurP.ControleurClavier;
-
+import com.ljuglaret.avecMVC.ControleurP.MainControler;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -18,9 +18,8 @@ public class AppMVC extends Application {
         VueMvc mainView = new VueMvc();
 
         // Create Controller
-       //Controleur controller = new Controleur(mainView);
+        MainControler ctrl = new MainControler(mainView);
 
-        ControleurClavier controllercl = new ControleurClavier(mainView);
 
         // Show stage
         primaryStage.setTitle("Calculatrice");
