@@ -18,13 +18,18 @@ public class VueMvc {
     String styleGlobal =  "-fx-border-radius: 5px;"
     +"-fx-border-width: 1px;"
     + "-fx-border-color: black;"
-    +"-fx-background-color:#0000;"; 
+    +"-fx-background-color:#FFFFFF;"
+    +"-fx-padding: 5px;"
+    +"-fx-border-insets: 5px;"
+    +"-fx-background-insets: 5px;"
+    +"-fx-font-size: 20;"; 
     
     private class ButtonGen extends Button{
       
         ButtonGen(String text, double minWidthButton, double minHeightButton, String style){
             this.setText(text);
             this.setMinWidth(minWidthButton);
+            this.setMinHeight(minHeightButton);
             this.setStyle(style);
 
         }
@@ -33,13 +38,13 @@ public class VueMvc {
 
     private class ButtonCh extends ButtonGen{
         ButtonCh(String text){
-            super(text, 100, 150,styleGlobal);
+            super(text, 80, 50,styleGlobal);
         }
     }
 
     private class ButtonOpe extends ButtonGen{
         ButtonOpe(String text){
-            super(text, 70, 70,styleGlobal);
+            super(text, 70, 40,styleGlobal);
         }
     }
 
@@ -60,7 +65,8 @@ String styleB               = styleGlobal;
     Button button8 = new ButtonCh("8");
     Button button9 = new ButtonCh("9");
 
-    Button buttonRetour = new ButtonOpe("<=");
+    Button buttonRetour = new Button("<=");
+
     Button buttonParOuvr = new ButtonOpe(" ( ");
     Button buttonParFerm = new ButtonOpe(" ) ");
     Button buttonDiv = new ButtonOpe(" / ");
@@ -179,21 +185,24 @@ String styleB               = styleGlobal;
         rootH1.setAlignment(Pos.BASELINE_CENTER);
 
         buttonEffacer.setMinWidth(300);
-        HBox rootH2 = new HBox(10,buttonEffacer);
+        buttonEffacer.setStyle("-fx-background-color:#FFFFFF;");
+        HBox rootH2 = new HBox(10,buttonEffacer,buttonRetour);
+        buttonRetour.setStyle("-fx-background-color:#01f0f5;");
         rootH2.setAlignment(Pos.BASELINE_CENTER);
         rootP.getChildren().addAll(rootH0,rootH1,rootH2);
 
+      
 
         HBox rootH3 = new HBox(
-                new VBox(button1,button4,button7, button0),
-                new VBox(button2,button5,button8),
-                new VBox(button3,button6,button9),
-                new VBox(buttonPlus,buttonMoins,buttonFois,buttonDiv,buttonEgal)
+                new VBox(button1,button4,button7, button0,buttonParOuvr),
+                new VBox(button2,button5,button8,buttonVirgule,buttonParFerm),
+                new VBox(button3,button6,button9,buttonEgal),
+                new VBox(buttonPlus,buttonMoins,buttonFois,buttonDiv)
             );
         
         rootH3.setAlignment(Pos.BASELINE_CENTER);
 
-        HBox rootH4 = new HBox(buttonParOuvr,buttonParFerm,buttonVirgule,buttonRetour);
+        HBox rootH4 = new HBox();
         rootH4.setAlignment(Pos.BASELINE_CENTER);
        rootP.getChildren().addAll(rootH3,rootH4);
         return rootP;

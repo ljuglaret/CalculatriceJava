@@ -1,6 +1,9 @@
 package com.ljuglaret.versionCnam.ControleurP;
 
 import com.ljuglaret.versionCnam.Vue.VueMvc;
+
+import org.checkerframework.checker.units.qual.s;
+
 import com.ljuglaret.versionCnam.Modele.ModeleMvc;
 import javafx.beans.property.*;
  
@@ -17,10 +20,15 @@ public class ControleurBouton implements IObservateur  {
 
     public void actualiser(IObservable modele){
         StringProperty s = new SimpleStringProperty();
-        javafx.scene.control.Button[] digitButtons = {vue.getButton0(), vue.getButton1(), vue.getButton2(), vue.getButton3(),
-            vue.getButton4(),vue.getButton5(),vue.getButton6(),vue.getButton7(),vue.getButton8(),vue.getButton9(), 
-            vue.getButtonVirgule(),vue.getButtonPlus(),vue.getButtonMoins(),vue.getButtonFois(),vue.getButtonDiv(),
-             vue.getButtonParOuvr(),vue.getButtonParFerm(), vue.getButtonEgal(),vue.getButtonEffacer()
+        javafx.scene.control.Button[] digitButtons = {
+            vue.getButton0(), vue.getButton1(), vue.getButton2(), vue.getButton3(),
+            vue.getButton4(),vue.getButton5(),vue.getButton6(),vue.getButton7(),
+            vue.getButton8(),vue.getButton9(), 
+            vue.getButtonVirgule(),
+            vue.getButtonPlus(),vue.getButtonMoins(),vue.getButtonFois(),vue.getButtonDiv(),
+             vue.getButtonParOuvr(),vue.getButtonParFerm(), 
+             vue.getButtonEgal(),
+             vue.getButtonEffacer(),vue.getButtonRetour()
         };
         for(int i = 0; i < digitButtons.length; i++) {
             final int buttonInd = i;
@@ -62,6 +70,17 @@ public class ControleurBouton implements IObservateur  {
                             vue.getSaisieEnCours().setText(s.get());
                             break;
 
+                case 19 :
+                        String sansDernierCaracSaisi = "";
+                        char[] temp = s.get().toCharArray();
+                        for (int j =0 ; j < temp.length - 2 ; j++){
+                            sansDernierCaracSaisi+=temp[j];
+                        }
+                        s.set(sansDernierCaracSaisi);
+                        modele.setValeur(sansDernierCaracSaisi);
+                        vue.getSaisieEnCours().setText(sansDernierCaracSaisi);
+                        
+                        break;
                 default : break;
             }
  

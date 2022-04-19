@@ -1,11 +1,7 @@
 package com.ljuglaret.versionCnam.Modele;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Stack;
-import java.util.Vector;
-import java.util.Iterator;
-import java.util.EmptyStackException;
 import java.util.List;
 
 import com.ljuglaret.avecMVC.observeObservateur.*;
