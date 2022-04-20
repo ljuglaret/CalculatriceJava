@@ -73,9 +73,17 @@ public class ControleurBouton implements IObservateur  {
                 case 19 :
                         String sansDernierCaracSaisi = "";
                         char[] temp = s.get().toCharArray();
-                        for (int j =0 ; j < temp.length - 2 ; j++){
-                            sansDernierCaracSaisi+=temp[j];
+                        if (temp[temp.length - 2] == '-'){
+                            for (int j =0 ; j < temp.length - 1 ; j++){
+                                sansDernierCaracSaisi+=temp[j];
+                            }
                         }
+                        else{
+                            for (int j =0 ; j < temp.length - 2 ; j++){
+                                sansDernierCaracSaisi+=temp[j];
+                            }
+                        }
+                       
                         s.set(sansDernierCaracSaisi);
                         modele.setValeur(sansDernierCaracSaisi);
                         vue.getSaisieEnCours().setText(sansDernierCaracSaisi);

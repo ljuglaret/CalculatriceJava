@@ -63,5 +63,4 @@ public class Evaluation {
         logger.info("Pile Expression   " + pileExpression.toString());
         logger.info("Pile Opérateurs   " + ops.toString() + "\n");
     }
-
 }

@@ -8,7 +8,7 @@ import com.ljuglaret.versionCnam.Modele.ModeleMvc;
 public class MainControler  {
     VueMvc vue;// = new VueMvc();
 
-    ModeleMvc modele = new ModeleMvc("0");
+    ModeleMvc modele = new ModeleMvc("");
 
     private ControleurBouton cb;
    

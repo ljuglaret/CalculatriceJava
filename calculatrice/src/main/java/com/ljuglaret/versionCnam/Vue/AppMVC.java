@@ -21,7 +21,7 @@ public class AppMVC extends Application {
 
 
         // Show stage
-        primaryStage.setTitle("Calculatrice");
+        primaryStage.setTitle("Ma première Calculatrice");
         primaryStage.setScene(new Scene(mainView.getVue()));
         primaryStage.show();
     }
